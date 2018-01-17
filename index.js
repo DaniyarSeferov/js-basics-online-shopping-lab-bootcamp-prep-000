@@ -81,6 +81,12 @@ function removeFromCart(item) {
   var cartLength = cart.length
   var item, itemKeys, itemKey, position;
   
+  for (let i=0; i<cartLength; i++) {
+    item = cart[i]
+    itemKeys = Object.keys(item)
+    itemKey = itemKeys[0]
+    total += item[itemKey]
+  }
 }
 
 function placeOrder(cardNumber) {
