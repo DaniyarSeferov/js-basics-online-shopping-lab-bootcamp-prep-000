@@ -79,13 +79,13 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var cartLength = cart.length
-  var item, itemKeys, itemKey, position;
+  var itemInner;
   
   for (let i=0; i<cartLength; i++) {
-    item = cart[i]
-    itemKeys = Object.keys(item)
-    itemKey = itemKeys[0]
-    total += item[itemKey]
+    itemInner = cart[i]
+    if (itemInner.has) {
+      
+    }
   }
 }
 
