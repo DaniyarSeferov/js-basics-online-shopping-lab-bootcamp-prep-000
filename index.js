@@ -97,7 +97,7 @@ function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber) {
     var cost = total()
-    console.log()
+    console.log(``)
   }
   else {
     console.log("Sorry, we don't have a credit card on file for you.")
