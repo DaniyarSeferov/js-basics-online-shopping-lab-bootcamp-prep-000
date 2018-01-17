@@ -84,7 +84,7 @@ function removeFromCart(item) {
   for (let i=0; i<cartLength; i++) {
     itemInner = cart[i]
     if (itemInner.hasOwnProperty(item)) {
-      
+      cart.split(i, 1)
     }
   }
 }
