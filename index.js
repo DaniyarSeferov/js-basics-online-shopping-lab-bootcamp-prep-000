@@ -95,6 +95,12 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  if (cardNumber) {
+    
+  }
+  else {
+    console.log('')
+  }
 }
 
 addToCart('lemons');
